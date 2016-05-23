@@ -27,6 +27,9 @@ namespace WebApiDemo.Models
 
     public class UserInfoViewModel
     {
+        /// <summary>
+        /// Email账号
+        /// </summary>
         public string Email { get; set; }
 
         public bool HasRegistered { get; set; }
